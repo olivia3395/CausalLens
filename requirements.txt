@@ -1,0 +1,17 @@
+dowhy==0.11.1
+econml==0.15.1
+causaldata==0.1.4
+anthropic>=0.25.0
+streamlit==1.33.0
+pandas==2.2.0
+numpy==1.26.4
+scikit-learn==1.4.2
+matplotlib==3.8.4
+seaborn==0.13.2
+networkx==3.3
+plotly==5.22.0
+python-dotenv==1.0.1
+joblib==1.4.2
+scipy==1.13.0
+statsmodels==0.14.2
+pygraphviz==1.12
