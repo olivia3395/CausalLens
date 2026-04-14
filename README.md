@@ -17,7 +17,7 @@ rigorous ATE estimates *and* business-readable reports — end to end.
 
 </div>
 
----
+
 
 ## Pipeline
 
@@ -27,7 +27,7 @@ Raw CSV  →  Causal DAG  →  ATE Estimation  →  Refutation Tests  →  LLM R
                            Causal Forest
 ```
 
----
+
 
 ## ✨ What It Does
 
@@ -40,7 +40,7 @@ Raw CSV  →  Causal DAG  →  ATE Estimation  →  Refutation Tests  →  LLM R
 | 5. Business report generation | Full markdown report | `anthropic` Claude API |
 | 6. Interactive UI | Dataset explorer + visualisations | `streamlit` |
 
----
+
 
 ## 📦 Datasets
 
@@ -57,7 +57,7 @@ Raw CSV  →  Causal DAG  →  ATE Estimation  →  Refutation Tests  →  LLM R
 - **Outcome**: `Attrition_num` — employee left the company (1/0)
 - **Use case**: Estimate causal impact of compensation on retention
 
----
+
 
 ## 🚀 Quickstart
 
@@ -79,7 +79,7 @@ streamlit run app/streamlit_app.py
 jupyter notebook notebooks/
 ```
 
----
+
 
 ## 📁 Project Structure
 
@@ -108,7 +108,7 @@ CausalLens/
 └── README.md
 ```
 
----
+
 
 ## 🧠 Methods Detail
 
@@ -140,7 +140,6 @@ reports the average.
 | Random Common Cause | Add a spurious confounder → ATE should be stable |
 | Bootstrap (Data Subset) | Re-estimate on 80 % subsets → ATE should be stable |
 
----
 
 ## 📝 Sample LLM Report Output
 
@@ -156,7 +155,7 @@ that the effect is not a statistical artefact.
 Policy-makers should continue funding similar job-training programmes...
 ```
 
----
+
 
 ## 📊 Resume Bullet
 
@@ -170,7 +169,6 @@ planner--estimator--reporter workflow; deployed as an interactive
 Streamlit app.
 ```
 
----
 
 ## 🔑 API Key
 
@@ -179,7 +177,7 @@ Anthropic API key.  All causal estimation runs without one.
 
 Get a free key at: https://console.anthropic.com
 
----
+
 
 ## 📚 References
 
